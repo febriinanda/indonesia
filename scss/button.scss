@@ -1,0 +1,82 @@
+@import 'maps.scss';
+
+@each $color,$val in $colorMap{
+    a{
+        &.tombol{
+            &.#{$color}{
+                text-decoration: none;
+                font-size: .8em;
+                background: $val;
+                display: inline-block;
+                padding: .7em;
+                border: none;
+                @if $color == kuning {
+                    color: #000;
+                }
+                @else if $color == putih {
+                    color: #000;
+                }
+                @else{
+                    color: #fff;
+                }
+                
+                border-radius: 2px;
+            }
+            &.#{$color}:hover{
+                background: $val - 10;
+            }
+        }
+    }
+    div{
+        &.tombol{
+            &.#{$color}{
+                text-decoration: none;
+                font-size: .8em;
+                background: $val;
+                display: inline-block;
+                padding: .7em;
+                border: none;
+                @if $color == kuning {
+                    color: #000;
+                }
+                @else if $color == putih {
+                    color: #000;
+                }
+                @else{
+                    color: #fff;
+                }
+                
+                border-radius: 2px;
+            }
+            &.#{$color}:hover{
+                background: $val - 10;
+            }
+        }
+    }
+    button{
+        &.tombol{
+            &.#{$color}{
+                text-decoration: none;
+                font-size: .8em;
+                background: $val;
+                display: inline-block;
+                padding: .7em;
+                border: none;
+                @if $color == kuning {
+                    color: #000;
+                }
+                @else if $color == putih {
+                    color: #000;
+                }
+                @else{
+                    color: #fff;
+                }
+                
+                border-radius: 2px;
+            }
+            &.#{$color}:hover{
+                background: $val - 10;
+            }
+        }
+    }
+}

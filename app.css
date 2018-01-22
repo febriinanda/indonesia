@@ -1,0 +1,259 @@
+a.tombol.merah {
+  text-decoration: none;
+  font-size: .8em;
+  background: #c23239;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+a.tombol.merah:hover {
+  background: #b8282f; }
+
+div.tombol.merah {
+  text-decoration: none;
+  font-size: .8em;
+  background: #c23239;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+div.tombol.merah:hover {
+  background: #b8282f; }
+
+button.tombol.merah {
+  text-decoration: none;
+  font-size: .8em;
+  background: #c23239;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+button.tombol.merah:hover {
+  background: #b8282f; }
+
+a.tombol.kuning {
+  text-decoration: none;
+  font-size: .8em;
+  background: gold;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #000;
+  border-radius: 2px; }
+a.tombol.kuning:hover {
+  background: #f5cd00; }
+
+div.tombol.kuning {
+  text-decoration: none;
+  font-size: .8em;
+  background: gold;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #000;
+  border-radius: 2px; }
+div.tombol.kuning:hover {
+  background: #f5cd00; }
+
+button.tombol.kuning {
+  text-decoration: none;
+  font-size: .8em;
+  background: gold;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #000;
+  border-radius: 2px; }
+button.tombol.kuning:hover {
+  background: #f5cd00; }
+
+a.tombol.biru {
+  text-decoration: none;
+  font-size: .8em;
+  background: #1E90FF;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+a.tombol.biru:hover {
+  background: #1486f5; }
+
+div.tombol.biru {
+  text-decoration: none;
+  font-size: .8em;
+  background: #1E90FF;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+div.tombol.biru:hover {
+  background: #1486f5; }
+
+button.tombol.biru {
+  text-decoration: none;
+  font-size: .8em;
+  background: #1E90FF;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+button.tombol.biru:hover {
+  background: #1486f5; }
+
+a.tombol.hijau {
+  text-decoration: none;
+  font-size: .8em;
+  background: #05be05;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+a.tombol.hijau:hover {
+  background: #00b400; }
+
+div.tombol.hijau {
+  text-decoration: none;
+  font-size: .8em;
+  background: #05be05;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+div.tombol.hijau:hover {
+  background: #00b400; }
+
+button.tombol.hijau {
+  text-decoration: none;
+  font-size: .8em;
+  background: #05be05;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+button.tombol.hijau:hover {
+  background: #00b400; }
+
+a.tombol.putih {
+  text-decoration: none;
+  font-size: .8em;
+  background: #FFFFFF;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #000;
+  border-radius: 2px; }
+a.tombol.putih:hover {
+  background: whitesmoke; }
+
+div.tombol.putih {
+  text-decoration: none;
+  font-size: .8em;
+  background: #FFFFFF;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #000;
+  border-radius: 2px; }
+div.tombol.putih:hover {
+  background: whitesmoke; }
+
+button.tombol.putih {
+  text-decoration: none;
+  font-size: .8em;
+  background: #FFFFFF;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #000;
+  border-radius: 2px; }
+button.tombol.putih:hover {
+  background: whitesmoke; }
+
+a.tombol.hitam {
+  text-decoration: none;
+  font-size: .8em;
+  background: #000000;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+a.tombol.hitam:hover {
+  background: black; }
+
+div.tombol.hitam {
+  text-decoration: none;
+  font-size: .8em;
+  background: #000000;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+div.tombol.hitam:hover {
+  background: black; }
+
+button.tombol.hitam {
+  text-decoration: none;
+  font-size: .8em;
+  background: #000000;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+button.tombol.hitam:hover {
+  background: black; }
+
+a.tombol.kelabu {
+  text-decoration: none;
+  font-size: .8em;
+  background: gray;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+a.tombol.kelabu:hover {
+  background: #767676; }
+
+div.tombol.kelabu {
+  text-decoration: none;
+  font-size: .8em;
+  background: gray;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+div.tombol.kelabu:hover {
+  background: #767676; }
+
+button.tombol.kelabu {
+  text-decoration: none;
+  font-size: .8em;
+  background: gray;
+  display: inline-block;
+  padding: .7em;
+  border: none;
+  color: #fff;
+  border-radius: 2px; }
+button.tombol.kelabu:hover {
+  background: #767676; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+div {
+  padding: .5em; }
+
+/*# sourceMappingURL=app.css.map */
