@@ -10,6 +10,33 @@
     cursor: pointer;
 }
 
+%besar{
+    font-size: 1.5em;
+    border-radius: 4px;
+    padding: .7em;
+}
+
+%kecil{
+    font-size: .6em;
+    border-radius: 1px;
+}
+
+a,div,button{
+    &.tombol{
+        @extend %button;
+        background: #ccc;
+        &:hover{
+            background: #ccc - 10;
+        }
+        &.kecil{
+            @extend %kecil;
+        }
+        &.besar{
+            @extend %besar;
+        }
+    }
+}
+
 @each $color,$val in $colorMap{
     a,div,button{
         &.tombol{
@@ -27,14 +54,11 @@
                 }
 
                 &.besar{
-                    font-size: 1.5em;
-                    border-radius: 4px;
-                    padding: .7em;
+                    @extend %besar;
                 }
 
                 &.kecil{
-                    font-size: .6em;
-                    border-radius: 1px;
+                    @extend %kecil;
                 }
             }
             &.#{$color}:hover{

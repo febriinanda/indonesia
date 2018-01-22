@@ -1,4 +1,4 @@
-a.tombol.merah, div.tombol.merah, button.tombol.merah, a.tombol.kuning, div.tombol.kuning, button.tombol.kuning, a.tombol.biru, div.tombol.biru, button.tombol.biru, a.tombol.hijau, div.tombol.hijau, button.tombol.hijau, a.tombol.putih, div.tombol.putih, button.tombol.putih, a.tombol.hitam, div.tombol.hitam, button.tombol.hitam, a.tombol.kelabu, div.tombol.kelabu, button.tombol.kelabu {
+a.tombol, div.tombol, button.tombol, a.tombol.merah, div.tombol.merah, button.tombol.merah, a.tombol.kuning, div.tombol.kuning, button.tombol.kuning, a.tombol.biru, div.tombol.biru, button.tombol.biru, a.tombol.hijau, div.tombol.hijau, button.tombol.hijau, a.tombol.putih, div.tombol.putih, button.tombol.putih, a.tombol.hitam, div.tombol.hitam, button.tombol.hitam, a.tombol.kelabu, div.tombol.kelabu, button.tombol.kelabu {
   text-decoration: none;
   font-size: .8em;
   display: inline-block;
@@ -7,94 +7,59 @@ a.tombol.merah, div.tombol.merah, button.tombol.merah, a.tombol.kuning, div.tomb
   border-radius: 2px;
   cursor: pointer; }
 
+a.tombol.besar, div.tombol.besar, button.tombol.besar, a.tombol.merah.besar, div.tombol.merah.besar, button.tombol.merah.besar, a.tombol.kuning.besar, div.tombol.kuning.besar, button.tombol.kuning.besar, a.tombol.biru.besar, div.tombol.biru.besar, button.tombol.biru.besar, a.tombol.hijau.besar, div.tombol.hijau.besar, button.tombol.hijau.besar, a.tombol.putih.besar, div.tombol.putih.besar, button.tombol.putih.besar, a.tombol.hitam.besar, div.tombol.hitam.besar, button.tombol.hitam.besar, a.tombol.kelabu.besar, div.tombol.kelabu.besar, button.tombol.kelabu.besar {
+  font-size: 1.5em;
+  border-radius: 4px;
+  padding: .7em; }
+
+a.tombol.kecil, div.tombol.kecil, button.tombol.kecil, a.tombol.merah.kecil, div.tombol.merah.kecil, button.tombol.merah.kecil, a.tombol.kuning.kecil, div.tombol.kuning.kecil, button.tombol.kuning.kecil, a.tombol.biru.kecil, div.tombol.biru.kecil, button.tombol.biru.kecil, a.tombol.hijau.kecil, div.tombol.hijau.kecil, button.tombol.hijau.kecil, a.tombol.putih.kecil, div.tombol.putih.kecil, button.tombol.putih.kecil, a.tombol.hitam.kecil, div.tombol.hitam.kecil, button.tombol.hitam.kecil, a.tombol.kelabu.kecil, div.tombol.kelabu.kecil, button.tombol.kelabu.kecil {
+  font-size: .6em;
+  border-radius: 1px; }
+
+a.tombol, div.tombol, button.tombol {
+  background: #ccc; }
+  a.tombol:hover, div.tombol:hover, button.tombol:hover {
+    background: #c2c2c2; }
+
 a.tombol.merah, div.tombol.merah, button.tombol.merah {
   background: #c23239;
   color: #fff; }
-  a.tombol.merah.besar, div.tombol.merah.besar, button.tombol.merah.besar {
-    font-size: 1.5em;
-    border-radius: 4px;
-    padding: .7em; }
-  a.tombol.merah.kecil, div.tombol.merah.kecil, button.tombol.merah.kecil {
-    font-size: .6em;
-    border-radius: 1px; }
 a.tombol.merah:hover, div.tombol.merah:hover, button.tombol.merah:hover {
   background: #b8282f; }
 
 a.tombol.kuning, div.tombol.kuning, button.tombol.kuning {
   background: gold;
   color: #000; }
-  a.tombol.kuning.besar, div.tombol.kuning.besar, button.tombol.kuning.besar {
-    font-size: 1.5em;
-    border-radius: 4px;
-    padding: .7em; }
-  a.tombol.kuning.kecil, div.tombol.kuning.kecil, button.tombol.kuning.kecil {
-    font-size: .6em;
-    border-radius: 1px; }
 a.tombol.kuning:hover, div.tombol.kuning:hover, button.tombol.kuning:hover {
   background: #f5cd00; }
 
 a.tombol.biru, div.tombol.biru, button.tombol.biru {
   background: #1E90FF;
   color: #fff; }
-  a.tombol.biru.besar, div.tombol.biru.besar, button.tombol.biru.besar {
-    font-size: 1.5em;
-    border-radius: 4px;
-    padding: .7em; }
-  a.tombol.biru.kecil, div.tombol.biru.kecil, button.tombol.biru.kecil {
-    font-size: .6em;
-    border-radius: 1px; }
 a.tombol.biru:hover, div.tombol.biru:hover, button.tombol.biru:hover {
   background: #1486f5; }
 
 a.tombol.hijau, div.tombol.hijau, button.tombol.hijau {
   background: #05be05;
   color: #fff; }
-  a.tombol.hijau.besar, div.tombol.hijau.besar, button.tombol.hijau.besar {
-    font-size: 1.5em;
-    border-radius: 4px;
-    padding: .7em; }
-  a.tombol.hijau.kecil, div.tombol.hijau.kecil, button.tombol.hijau.kecil {
-    font-size: .6em;
-    border-radius: 1px; }
 a.tombol.hijau:hover, div.tombol.hijau:hover, button.tombol.hijau:hover {
   background: #00b400; }
 
 a.tombol.putih, div.tombol.putih, button.tombol.putih {
   background: #FFFFFF;
   color: #000; }
-  a.tombol.putih.besar, div.tombol.putih.besar, button.tombol.putih.besar {
-    font-size: 1.5em;
-    border-radius: 4px;
-    padding: .7em; }
-  a.tombol.putih.kecil, div.tombol.putih.kecil, button.tombol.putih.kecil {
-    font-size: .6em;
-    border-radius: 1px; }
 a.tombol.putih:hover, div.tombol.putih:hover, button.tombol.putih:hover {
   background: whitesmoke; }
 
 a.tombol.hitam, div.tombol.hitam, button.tombol.hitam {
   background: #000000;
   color: #fff; }
-  a.tombol.hitam.besar, div.tombol.hitam.besar, button.tombol.hitam.besar {
-    font-size: 1.5em;
-    border-radius: 4px;
-    padding: .7em; }
-  a.tombol.hitam.kecil, div.tombol.hitam.kecil, button.tombol.hitam.kecil {
-    font-size: .6em;
-    border-radius: 1px; }
 a.tombol.hitam:hover, div.tombol.hitam:hover, button.tombol.hitam:hover {
   background: black; }
 
 a.tombol.kelabu, div.tombol.kelabu, button.tombol.kelabu {
   background: gray;
   color: #fff; }
-  a.tombol.kelabu.besar, div.tombol.kelabu.besar, button.tombol.kelabu.besar {
-    font-size: 1.5em;
-    border-radius: 4px;
-    padding: .7em; }
-  a.tombol.kelabu.kecil, div.tombol.kelabu.kecil, button.tombol.kelabu.kecil {
-    font-size: .6em;
-    border-radius: 1px; }
 a.tombol.kelabu:hover, div.tombol.kelabu:hover, button.tombol.kelabu:hover {
   background: #767676; }
 
