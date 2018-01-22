@@ -1,15 +1,21 @@
 @import 'maps.scss';
 
+%button{
+    text-decoration: none;
+    font-size: .8em;
+    display: inline-block;
+    padding: 1em;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
 @each $color,$val in $colorMap{
-    a{
+    a,div,button{
         &.tombol{
             &.#{$color}{
-                text-decoration: none;
-                font-size: .8em;
+                @extend %button;
                 background: $val;
-                display: inline-block;
-                padding: .7em;
-                border: none;
                 @if $color == kuning {
                     color: #000;
                 }
@@ -19,60 +25,17 @@
                 @else{
                     color: #fff;
                 }
-                
-                border-radius: 2px;
-            }
-            &.#{$color}:hover{
-                background: $val - 10;
-            }
-        }
-    }
-    div{
-        &.tombol{
-            &.#{$color}{
-                text-decoration: none;
-                font-size: .8em;
-                background: $val;
-                display: inline-block;
-                padding: .7em;
-                border: none;
-                @if $color == kuning {
-                    color: #000;
+
+                &.besar{
+                    font-size: 1.5em;
+                    border-radius: 4px;
+                    padding: .7em;
                 }
-                @else if $color == putih {
-                    color: #000;
+
+                &.kecil{
+                    font-size: .6em;
+                    border-radius: 1px;
                 }
-                @else{
-                    color: #fff;
-                }
-                
-                border-radius: 2px;
-            }
-            &.#{$color}:hover{
-                background: $val - 10;
-            }
-        }
-    }
-    button{
-        &.tombol{
-            &.#{$color}{
-                text-decoration: none;
-                font-size: .8em;
-                background: $val;
-                display: inline-block;
-                padding: .7em;
-                border: none;
-                @if $color == kuning {
-                    color: #000;
-                }
-                @else if $color == putih {
-                    color: #000;
-                }
-                @else{
-                    color: #fff;
-                }
-                
-                border-radius: 2px;
             }
             &.#{$color}:hover{
                 background: $val - 10;
