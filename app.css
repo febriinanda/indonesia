@@ -1,0 +1,72 @@
+a.tombol, div.tombol, button.tombol {
+  text-decoration: none;
+  font-size: .8em;
+  display: inline-block;
+  padding: 1em;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer; }
+
+a.tombol.besar, div.tombol.besar, button.tombol.besar {
+  font-size: 1.5em;
+  border-radius: 4px;
+  padding: .7em; }
+
+a.tombol.kecil, div.tombol.kecil, button.tombol.kecil {
+  font-size: .6em;
+  border-radius: 1px; }
+
+a.tombol, div.tombol, button.tombol {
+  background: #ccc; }
+  a.tombol:hover, div.tombol:hover, button.tombol:hover {
+    background: #c2c2c2; }
+
+a.tombol.merah, div.tombol.merah, button.tombol.merah {
+  background: #c23239;
+  color: #fff; }
+  a.tombol.merah:hover, div.tombol.merah:hover, button.tombol.merah:hover {
+    background: #b8282f; }
+
+a.tombol.kuning, div.tombol.kuning, button.tombol.kuning {
+  background: gold;
+  color: #000; }
+  a.tombol.kuning:hover, div.tombol.kuning:hover, button.tombol.kuning:hover {
+    background: #f5cd00; }
+
+a.tombol.biru, div.tombol.biru, button.tombol.biru {
+  background: #1E90FF;
+  color: #fff; }
+  a.tombol.biru:hover, div.tombol.biru:hover, button.tombol.biru:hover {
+    background: #1486f5; }
+
+a.tombol.hijau, div.tombol.hijau, button.tombol.hijau {
+  background: #05be05;
+  color: #fff; }
+  a.tombol.hijau:hover, div.tombol.hijau:hover, button.tombol.hijau:hover {
+    background: #00b400; }
+
+a.tombol.putih, div.tombol.putih, button.tombol.putih {
+  background: #FFFFFF;
+  color: #000; }
+  a.tombol.putih:hover, div.tombol.putih:hover, button.tombol.putih:hover {
+    background: whitesmoke; }
+
+a.tombol.hitam, div.tombol.hitam, button.tombol.hitam {
+  background: #000000;
+  color: #fff; }
+  a.tombol.hitam:hover, div.tombol.hitam:hover, button.tombol.hitam:hover {
+    background: black; }
+
+a.tombol.kelabu, div.tombol.kelabu, button.tombol.kelabu {
+  background: gray;
+  color: #fff; }
+  a.tombol.kelabu:hover, div.tombol.kelabu:hover, button.tombol.kelabu:hover {
+    background: #767676; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+div {
+  padding: .5em; }
+
+/*# sourceMappingURL=app.css.map */

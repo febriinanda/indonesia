@@ -1,0 +1,62 @@
+@import 'maps.scss';
+
+%button{
+    text-decoration: none;
+    font-size: .8em;
+    display: inline-block;
+    padding: 1em;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+%besar{
+    font-size: 1.5em;
+    border-radius: 4px;
+    padding: .7em;
+}
+
+%kecil{
+    font-size: .6em;
+    border-radius: 1px;
+}
+
+@each $key,$val in $colorMap{
+    a, div, button{
+        &.tombol{
+            @extend %button;
+            @if $key == default{
+                background: $val;
+                &:hover{
+                    background: $val - 10;
+                }
+            }
+            @else{
+                &.#{$key}{
+                    background: $val;
+                    @if $key == kuning {
+                        color: #000;
+                    }
+                    @else if $key == putih {
+                        color: #000;
+                    }
+                    @else{
+                        color: #fff;
+                    }
+
+                    &:hover{
+                        background: $val - 10;
+                    }
+                }
+            }
+
+            &.besar{
+                @extend %besar;
+            }
+
+            &.kecil{
+                @extend %kecil;
+            }
+        }
+    }
+}
