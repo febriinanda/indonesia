@@ -10,35 +10,52 @@
     cursor: pointer;
 }
 
-@each $color,$val in $colorMap{
-    a,div,button{
+%besar{
+    font-size: 1.5em;
+    border-radius: 4px;
+    padding: .7em;
+}
+
+%kecil{
+    font-size: .6em;
+    border-radius: 1px;
+}
+
+@each $key,$val in $colorMap{
+    a, div, button{
         &.tombol{
-            &.#{$color}{
-                @extend %button;
+            @extend %button;
+            @if $key == default{
                 background: $val;
-                @if $color == kuning {
-                    color: #000;
-                }
-                @else if $color == putih {
-                    color: #000;
-                }
-                @else{
-                    color: #fff;
-                }
-
-                &.besar{
-                    font-size: 1.5em;
-                    border-radius: 4px;
-                    padding: .7em;
-                }
-
-                &.kecil{
-                    font-size: .6em;
-                    border-radius: 1px;
+                &:hover{
+                    background: $val - 10;
                 }
             }
-            &.#{$color}:hover{
-                background: $val - 10;
+            @else{
+                &.#{$key}{
+                    background: $val;
+                    @if $key == kuning {
+                        color: #000;
+                    }
+                    @else if $key == putih {
+                        color: #000;
+                    }
+                    @else{
+                        color: #fff;
+                    }
+
+                    &:hover{
+                        background: $val - 10;
+                    }
+                }
+            }
+
+            &.besar{
+                @extend %besar;
+            }
+
+            &.kecil{
+                @extend %kecil;
             }
         }
     }
